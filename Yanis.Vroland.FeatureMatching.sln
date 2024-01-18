@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3E881CA-9B3D-4652-8A02-E8E889D38044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanis.Vroland.FeatureMatching", "src\Yanis.Vroland.FeatureMatching\Yanis.Vroland.FeatureMatching.csproj", "{87E5E480-4956-4446-9E2F-687AC44F5D53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{39FEAB67-FDAA-45B9-A766-A3990DDF1B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanis.Vroland.FeatureMatching.Tests", "tests\Yanis.Vroland.FeatureMatching.Tests\Yanis.Vroland.FeatureMatching.Tests.csproj", "{276586F0-39EF-438B-92A6-69554D4AC277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanis.Vroland.FeatureMatching.Console", "src\Yanis.Vroland.FeatureMatching.Console\Yanis.Vroland.FeatureMatching.Console.csproj", "{E89E6320-926E-4769-A2EA-8ED1A46078B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yanis.Vroland.FeatureMatching.WebApi", "src\Yanis.Vroland.FeatureMatching.WebApi\Yanis.Vroland.FeatureMatching.WebApi.csproj", "{94FFE4B8-C336-4623-969B-DEBA4E1B41B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E5E480-4956-4446-9E2F-687AC44F5D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E5E480-4956-4446-9E2F-687AC44F5D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E5E480-4956-4446-9E2F-687AC44F5D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E5E480-4956-4446-9E2F-687AC44F5D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276586F0-39EF-438B-92A6-69554D4AC277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276586F0-39EF-438B-92A6-69554D4AC277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276586F0-39EF-438B-92A6-69554D4AC277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276586F0-39EF-438B-92A6-69554D4AC277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89E6320-926E-4769-A2EA-8ED1A46078B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89E6320-926E-4769-A2EA-8ED1A46078B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89E6320-926E-4769-A2EA-8ED1A46078B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89E6320-926E-4769-A2EA-8ED1A46078B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FFE4B8-C336-4623-969B-DEBA4E1B41B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FFE4B8-C336-4623-969B-DEBA4E1B41B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FFE4B8-C336-4623-969B-DEBA4E1B41B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FFE4B8-C336-4623-969B-DEBA4E1B41B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87E5E480-4956-4446-9E2F-687AC44F5D53} = {A3E881CA-9B3D-4652-8A02-E8E889D38044}
+		{276586F0-39EF-438B-92A6-69554D4AC277} = {39FEAB67-FDAA-45B9-A766-A3990DDF1B08}
+		{E89E6320-926E-4769-A2EA-8ED1A46078B8} = {A3E881CA-9B3D-4652-8A02-E8E889D38044}
+		{94FFE4B8-C336-4623-969B-DEBA4E1B41B2} = {A3E881CA-9B3D-4652-8A02-E8E889D38044}
+	EndGlobalSection
+EndGlobal
