@@ -13,10 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '8.0.101'
+
+      - name: Restore Dependencies
+        run: dotnet restore
           
       - name: Build and Test
         run: |
@@ -25,7 +28,7 @@ jobs:
 
       - name: Publish Console App
         run: |
-          dotnet publish -c Release -r win10-x64 --self-contained
+          dotnet publish -c Release -r win10-x64 --self-contained 
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
